@@ -1,1 +1,214 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+/* MY CODE STARTS HERE */
+body {
+  width: 1000px;
+  margin-left: 20%;
+  margin-bottom: 12%;
+}
+body header {
+  text-align: right;
+  text-decoration: none;
+  margin-bottom: 2%;
+  background-color: #b3d0ff;
+  padding: 2%;
+}
+body header a {
+  padding: 2%;
+  font-size: 1.1rem;
+  font-family: 'Kulim Park', sans-serif;
+  color: black;
+}
+body img {
+  height: 400px;
+}
+body h1 {
+  font-family: 'Kulim Park', sans-serif;
+  font-size: 4rem;
+}
+body h2 {
+  font-family: 'Kulim Park', sans-serif;
+  font-size: 1.8rem;
+  font-weight: bold ;
+}
+body h3 {
+  font-family: 'Kulim Park', sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+body p,
+body li {
+  font-family: 'Kulim Park', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.2;
+}
+body .container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #b3d0ff;
+}
+body .first {
+  width: 40%;
+  padding: 2%;
+}
+body .second {
+  width: 40%;
+  padding: 2%;
+  margin-left: 8%;
+}
+body ul {
+  list-style-type: square;
+}
+body .bars {
+  text-align: right;
+  text-decoration: none;
+  margin-bottom: 2%;
+  background-color: #b3d0ff;
+  padding: 2%;
+}
+body .surround {
+  width: 40%;
+  padding: 2%;
+}
+body footer {
+  text-align: right;
+  text-decoration: none;
+  margin-bottom: 2%;
+  background-color: #b3d0ff;
+  padding: 2%;
+}

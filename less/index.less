@@ -54,6 +54,83 @@ table {
 }
 
 html, body {
-    height: 100%;
+	height: 100%;
+	
 }
+/* MY CODE STARTS HERE */
+@font: 'Kulim Park', sans-serif;
+@mainColor: #b3d0ff;
+body {
+	width: 1000px;
+	margin-left: 20%;
+	margin-bottom: 12%;
+	
 
+	header {
+		.bars();
+	
+		a {
+			padding: 2%;
+			font-size: 1.1rem;
+			font-family: @font;
+			color: black;
+		}
+	}
+	img {
+		height: 400px;
+		
+	 }
+
+	h1 {
+		font-family: @font;
+		font-size: 4rem;
+	}
+	h2 {
+		font-family: @font;
+		font-size: 1.8rem;
+		font-weight:bold ;
+	}
+	h3{
+		font-family: @font;
+		font-size: 1.3rem;
+		font-weight: bold;
+	}
+
+	p, li {
+		font-family: @font;
+		font-size: 1.1rem;
+		line-height: 1.2;
+	}
+	.container{
+		display:flex;
+		flex-direction: row;
+		width: 100%;
+		background-color: @mainColor;
+	}
+	.first{
+		.surround();
+	}
+	.second{
+		.surround();
+		margin-left:8%;
+	}
+	ul{
+		list-style-type: square;
+	}
+
+	.bars{
+		text-align: right;
+		text-decoration: none;
+		margin-bottom: 2%;
+		background-color: @mainColor;
+		padding:2%;
+	}
+	.surround{
+		width: 40%;
+		padding: 2%;
+	}
+	footer{
+		.bars();
+	}
+
+}
