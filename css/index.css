@@ -140,6 +140,11 @@ body {
   margin-left: 20%;
   margin-bottom: 12%;
 }
+@media (max-width: 500px) {
+  body {
+    width: 400px;
+  }
+}
 body header {
   text-align: right;
   text-decoration: none;
@@ -152,6 +157,12 @@ body header a {
   font-size: 1.1rem;
   font-family: 'Kulim Park', sans-serif;
   color: black;
+}
+@media (max-width: 500px) {
+  body header a {
+    display: flex;
+    justify-content: flex-start;
+  }
 }
 body img {
   height: 400px;

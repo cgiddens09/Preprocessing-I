@@ -65,6 +65,10 @@ body {
 	margin-left: 20%;
 	margin-bottom: 12%;
 	
+	@media(max-width: 500px) {
+		width: 400px;
+	}
+	
 
 	header {
 		.bars();
@@ -74,6 +78,12 @@ body {
 			font-size: 1.1rem;
 			font-family: @font;
 			color: black;
+
+			@media (max-width: 500px){
+				display: flex;
+				
+				justify-content: flex-start;
+			}
 		}
 	}
 	img {
@@ -106,6 +116,8 @@ body {
 		flex-direction: row;
 		width: 100%;
 		background-color: @mainColor;
+
+	
 	}
 	.first{
 		.surround();
@@ -113,6 +125,7 @@ body {
 	.second{
 		.surround();
 		margin-left:8%;
+
 	}
 	ul{
 		list-style-type: square;
